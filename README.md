@@ -1,4 +1,4 @@
-# LogError
+# logError
 
 This package allows you to log an error to the console in one line.
 
@@ -29,11 +29,11 @@ package main
 
 import (
     "os/exec"
-    "github.com/Matt-Gleich/LogError"
+    "github.com/Matt-Gleich/logError"
 )
 
 func main() {
     out, err := exec.Command("git", "--version")
-    LogError.Log(err, "Printing some information about the command error")
+    logError.Log(err, "Printing some information about the command error")
 }
 ```
