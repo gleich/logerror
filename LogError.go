@@ -1,4 +1,4 @@
-package LogError
+package logerror
 
 import (
 	"github.com/fatih/color"
