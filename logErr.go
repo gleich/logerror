@@ -10,7 +10,7 @@ import (
 func Log(err interface{}, msg string) {
 	if err != nil {
 		if msg != "" {
-			color.Red(msg)
+			color.Blue(msg)
 		}
 		log.Error(err)
 		os.Exit(1)
