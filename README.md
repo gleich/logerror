@@ -1,4 +1,4 @@
-# logerr
+# logErr
 
 This package allows you to log an error to the console in one line.
 
@@ -29,7 +29,7 @@ package main
 
 import (
     "os/exec"
-    "github.com/Matt-Gleich/logerr"
+    "github.com/Matt-Gleich/logErr"
 )
 
 func main() {

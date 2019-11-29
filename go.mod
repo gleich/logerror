@@ -1,4 +1,4 @@
-module github.com/Matt-Gleich/logerr
+module github.com/Matt-Gleich/logErr
 
 go 1.13
 
