@@ -8,11 +8,11 @@ import (
 
 // Log ... Logs an error if there is an error with logrus
 func Log(err interface{}, msg string) {
-	if (err != nil) {
-		if (msg != "") {
+	if err != nil {
+		if msg != "" {
 			color.Red(msg)
 		}
 		log.Error(err)
-	os.Exit(1)
+		os.Exit(1)
 	}
 }
