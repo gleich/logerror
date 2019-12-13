@@ -1,6 +1,6 @@
 # logerror
 
-This package allows you to log an error to the console in one line.
+This package allows you to log an error to the console in one line. This package should not be used in production code, only for writing really fast code during something like a competition.
 
 ## Without this package
 
