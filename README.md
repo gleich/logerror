@@ -33,7 +33,7 @@ import (
 )
 
 func main() {
-    out, err := exec.Command("git", "--version")
+    out, err := exec.Command("git", "--version").Output()
     logError.Log(err, "Printing some information about the command error")
 }
 ```
